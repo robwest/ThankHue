@@ -1,13 +1,14 @@
 ThankHue
 ========
 
-## Introduction##
+##Introduction##
 
 Scripts and Explorations with Philips Hue automation.
 
 This readme was put together quickly, and will be added upon as soon as I have time.
 
 Basically, this repo contains some experiments and other utilities I've been working on to control Philips Hue lights.
+
 
 ##Installation##
 
@@ -25,10 +26,13 @@ The Alfred Workflows folder contains tools that work with a new app by Futura-Ep
     hue <anything>
 Run any command from Alfred that you can run in Hue Server. Passes arguments along exactly. Try "hue all on", "hue all off", "hue red". etc.
 
-    hueon
-    hueoff
+	hueon
+	hueoff
 Shortcuts for turning all lights on or off.
 
     cmd-option-shift-h (at least that's what I assigned)
 Tells the Hue Server command window to open. This is redundant, and is included for testing purposes. If you know the command you wish to issue, the `hue` command above should obviate this. If you want hue commands to auto-complete, or to interact with the Hue Server application for some other reason, this is a convenience.
 
+### OSC Directory (Max/MSP Patches)
+
+These are some sample patches I built in an evening to learn about how to communicate with Hue Server from [Cycling 74](http://cycling74.com/)'s wonderful visual programming language, Max 6. 
